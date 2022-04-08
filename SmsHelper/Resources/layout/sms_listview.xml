@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@drawable/sms_background"
+    >
+    <TextView
+        android:textAppearance="?android:attr/textAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:minWidth="25px"
+        android:minHeight="0px"
+        android:id="@+id/alert" 
+        android:visibility="gone"/>
+    <TextView
+        android:text="Text"
+        android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/sender" />
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        >
+
+        <TextView
+            android:text="@string/time_title"
+            android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/time"
+            android:layout_weight="1"
+            android:textSize="34px" />
+        <TextView
+            android:text="@string/receive_time_title"
+            android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/receiveTime"
+            android:foregroundGravity="right"
+            android:layout_marginRight="10px"
+            android:layout_weight="1"
+            android:textAlignment="textEnd" 
+            android:textSize="34px"/>
+    </LinearLayout>
+    <TextView
+        android:text="Text"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/content" />
+</LinearLayout>

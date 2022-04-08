@@ -1,0 +1,21 @@
+<resources>
+	<string name="app_name">WB短信系统</string>
+	<string name="title_inbox">收件箱</string>
+	<string name="title_setting">设置</string>
+	<string name="content_setting">欢迎使用WB短信系统\n请确保APP持续运行（通知栏会显示）</string>
+	<string name="api_url_setting">回调地址设置</string>
+	<string name="api_url_title">当前回调地址：</string>
+	<string name="ws_url_setting">心跳地址设置</string>
+	<string name="ws_url_title">当前心跳地址：</string>
+	<string name="phone_setting">设备号设置</string>
+	<string name="phone_title">当前设备号：</string>
+	<string name="secret_setting">适配碼设置</string>
+	<string name="secret_title">当前适配碼：</string>
+	<string name="status_title">联线状态：</string>
+	<string name="loading">加载中...</string>
+	<string name="vertion_title">当前版本：</string>
+	<string name="receive_time_title">回调时间 : 2021-10-05 12:00:00</string>
+	<string name="time_title">收到时间 : 2021-10-05 12:00:00</string>
+	<string name="alert_title">注意</string>
+	<string name="content_title">范例短信文字范例短信文字范例短信文字范例短信文字范例短信文字范例短信文字范例短信文字</string>
+</resources>
