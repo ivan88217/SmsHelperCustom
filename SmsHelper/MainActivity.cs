@@ -60,8 +60,8 @@ namespace SmsHelper
         public static string ApiUrl { get; set; } = "";
         public static string WsUrl { get; set; } = "";
 
-        private const string defaultApiUrl = "https://api.webcoco.org/cn/sms/receive_v3";
-        private const string defaultWsUrl = "wss://ws-phone.webcoco.org/ws/";
+        private const string defaultApiUrl = "https://*******";
+        private const string defaultWsUrl = "wss://*******";
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
